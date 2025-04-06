@@ -1,4 +1,5 @@
-flask==2.0.3
+flask==2.1.3
+werkzeug==2.1.2  # Must match Flask's requirements
 tensorflow-cpu==2.15.0
 scikit-learn==1.3.2
 pandas==2.0.3
