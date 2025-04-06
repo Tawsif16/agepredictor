@@ -1,5 +1,6 @@
-tensorflow-cpu==2.15.0  # Stable, widely compatible version
 flask==2.0.3
-numpy==1.24.0  # Compatible with TF 2.15.0
+werkzeug==2.0.3  # Must match Flask version
+tensorflow-cpu==2.15.0
+numpy==1.24.0
 pillow==10.1.0
 gunicorn==21.2.0
