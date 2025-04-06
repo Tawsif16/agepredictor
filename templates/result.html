@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Prediction Result</h1>
+        <div class="result-box">
+            <div class="image-preview">
+                <img src="{{ image_path }}" alt="Uploaded Image">
+            </div>
+            <div class="prediction">
+                <h2>Predicted Age: <span>{{ age }}</span> years</h2>
+            </div>
+        </div>
+        <a href="/" class="back-button">Try Another</a>
+    </div>
+</body>
+</html>
